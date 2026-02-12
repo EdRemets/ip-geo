@@ -1,0 +1,41 @@
+body {
+    background-color: #F7FDFF;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+input {
+    font-size: large;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #dddddd;
+}
+
+input:hover {
+    box-shadow: 10px #ebebeb;
+}
+
+p {
+    white-space: pre;
+}
+
+button {
+    border: none;
+    color: #F7FDFF;
+    padding: 10px 25px;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #ff771c;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 10px #ff771c;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+button:hover {
+    background-color: #dd6b1f;
+    box-shadow: 10px #dd6b1f;
+}
