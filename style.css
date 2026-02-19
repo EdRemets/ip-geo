@@ -28,7 +28,7 @@ button {
     background-color: #ff771c;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 10px #ff771c;
+    box-shadow: 0 0 10px #ff771c;
 }
 
 button:active {
@@ -37,5 +37,5 @@ button:active {
 
 button:hover {
     background-color: #dd6b1f;
-    box-shadow: 10px #dd6b1f;
+    box-shadow: 0 0 10px #dd6b1f;
 }
