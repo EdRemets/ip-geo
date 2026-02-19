@@ -1,6 +1,11 @@
 body {
-    background-color: #F7FDFF;
+    background-color: #f7fdff;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 input {
@@ -8,10 +13,12 @@ input {
     margin-top: 4px;
     margin-bottom: 4px;
     border: 1px solid #dddddd;
+    border-radius: 5px;
+    text-align: center;
 }
 
 input:hover {
-    box-shadow: 10px #ebebeb;
+    box-shadow: 0 0 10px #ebebeb;
 }
 
 p {
@@ -20,11 +27,11 @@ p {
 
 button {
     border: none;
-    color: #F7FDFF;
+    color: #f7fdff;
     padding: 10px 25px;
     font-size: 16px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: #ff771c;
     cursor: pointer;
     border-radius: 5px;
@@ -38,4 +45,18 @@ button:active {
 button:hover {
     background-color: #dd6b1f;
     box-shadow: 0 0 10px #dd6b1f;
+}
+
+.box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #dddddd;
+    text-align: center;
+}
+
+.paragraphsdiv {
+    background-color: #f7fdff;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
 }
